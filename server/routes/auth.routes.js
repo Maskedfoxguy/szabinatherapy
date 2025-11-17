@@ -1,0 +1,9 @@
+// Auth routes: wire HTTP verbs to controller functions for session management.
+const router = require('express').Router();
+const authController = require('../controllers/authController');
+
+router.post('/login', authController.login);
+router.post('/refresh', authController.refresh);
+router.post('/logout', authController.logout);
+
+module.exports = router;

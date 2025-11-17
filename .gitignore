@@ -1,0 +1,12 @@
+# Root ignores
+node_modules
+npm-debug.log*
+.DS_Store
+.env
+
+# Workspace ignores
+client/node_modules
+client/build
+server/node_modules
+server/.env
+server/coverage
