@@ -1,4 +1,4 @@
-<!-- Server README: explains environment needs and available npm scripts. -->
+
 
 ## Getting started
 1. Copy `.env.example` to `.env` and fill in the MongoDB connection string along with admin seed credentials.
